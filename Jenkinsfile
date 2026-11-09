@@ -12,7 +12,7 @@ pipeline{
             steps{
                 echo 'Run the app'
                 bat 'docker rm -f mycontainer || exit0 '
-                bat 'docker run -d -p flaskapp 5000:5000 '
+                bat 'docker run -d -p flaskapp 5003:5000 '
             }
         }
         }
