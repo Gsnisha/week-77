@@ -16,13 +16,7 @@ pipeline{
             }
         }
         }
-        stages{
-        stage('Docker Login'){
-            steps{
-                bat 'docker login -u nisha1310 -p 'password'.
         
-            }
-        }
         stages{
         stage('Push image'){
         steps{
